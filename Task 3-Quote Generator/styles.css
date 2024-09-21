@@ -1,0 +1,68 @@
+body, html {
+     height: 100%; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+}
+
+h1{
+    
+    font-size: 45px;
+    color: rgb(37, 10, 172);
+}
+.dropdown {
+    margin-bottom: 0; 
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    display: block;
+    
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f0f8ff; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Styling the quote */
+.quote-text {
+    font-size: 28px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.quote-author {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Button styling */
+.btn {
+    background-color: #4293db; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #bbc6c8;
+}
